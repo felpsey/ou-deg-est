@@ -1,0 +1,25 @@
+{
+  "name": "ou-degree-calculator",
+  "version": "1.0.0",
+  "description": "Estimate the overall grade of an Open University degree",
+  "private": true,
+  "scripts": {
+    "build": "webpack"
+  },
+  "author": "Ethan Phelps",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felpsey/ou-degree-calculator.git"
+  },
+  "devDependencies": {
+    "css-loader": "^6.7.3",
+    "gh-pages": "^5.0.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}

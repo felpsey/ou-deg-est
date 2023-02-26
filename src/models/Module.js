@@ -18,7 +18,7 @@ export default class Module {
         }
         
         if(!(Number.isInteger(grade))) {
-            throw new Error('Grade is not type Integer')
+            parseInt(grade)
         }
 
         this.level = level
@@ -37,6 +37,10 @@ export default class Module {
 
     getCode() {
         return this.code
+    }
+
+    getGrade() {
+        return this.grade
     }
 
     weightedCredits() {

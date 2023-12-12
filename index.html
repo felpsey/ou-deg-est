@@ -1,100 +1,13 @@
-<!DOCTYPE html>
-<html lang="en-gb">
-<head>
-	<meta charset='utf-8'>
-	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
-	<meta name='viewport' content='width=device-width, initial-scale=1'>
-
-	<link rel="icon" href="https://felpsey.com/favicon.ico" type="image/x-icon"/>
-
-	<title>OU Degree Calculator</title>
-</head>
-<body>
-	<div class="navbar bg-black pt-0">
-		<div class="container p-3 pt-5 pb-0">
-			<a class="navbar-brand text-light fw-bold fs-2" href="/">
-				OU Degree Calculator
-			</a>
-		</div>
-	</div>
-
-	<div class="container-fluid bg-primary text-light">
-		<div class="container pt-5 pb-5">
-			<h1>Welcome to the OU Degree Calculator</h1>
-			<h3 class="pt-2 fw-normal">An easy way to estimate your degree weight</h3>
-		</div>
-	</div>
-
-	<div class="container pt-5">
-		<div class="row">
-			<span>Updated for the 2022-23 academic year.</span>
-		</div>
-
-		<div class="row mt-5">
-			<div class="col-md-6">
-				<table id="moduleTable" class="table">
-					<thead>
-						<tr>
-							<td>Level</td>
-							<td>Credits</td>
-							<td>Code</td>
-							<td>Grade</td>
-						</tr>
-					</thead>
-
-					<tbody id="tableBody">
-						
-					</tbody>
-				</table>
-			</div>
-		</div>
-
-		<div class="row mb-5 mt-5">
-			<div>
-				<button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#addModuleModal">
-					Add module
-				</button>
-	
-				  <button id="calculateDegreeGradeBtn" type="button" class="btn btn-primary">
-					Calculate
-				  </button>
-			</div>
-		</div>
-	</div>
-
-	<div class="modal fade" id="addModuleModal" tabindex="-1" aria-labelledby="addModuleModal" aria-hidden="true">
-		<div class="modal-dialog">
-		  <div class="modal-content">
-			<div class="modal-header">
-			  <h1 class="modal-title fs-5" id="addModuleModal">Add a module</h1>
-			  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-			</div>
-			<div class="modal-body">
-			  <small>Module level</small>
-			  <input name="moduleLevel" id="moduleLevelInput" class="form-control" type="text" placeholder="1">
-
-			  <small>Module credits</small>
-			  <input name="moduleCredits" id="moduleCreditsInput" class="form-control" type="text" placeholder="30">
-
-			  <small>Module code</small>
-			  <input name="moduleCode" id="moduleCodeInput" class="form-control" type="text" placeholder="M269">
-
-			  <small>Module grade</small>
-			  <select name="moduleGrade" id="moduleGradeInput" class="form-control form-select">
-					<option value=1>Distinction</option>
-					<option value=2>Merit</option>
-					<option value=3>Pass 3</option>
-					<option value=4>Pass 4</option>
-			  </select>
-			</div>
-			<div class="modal-footer">
-			  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-			  <button id="addModuleSubmission" type="button" class="btn btn-primary">Add</button>
-			</div>
-		  </div>
-		</div>
-	  </div>
-
-	<script src="./dist/bundle.js"></script>
-</body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + Vue + TS</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
 </html>

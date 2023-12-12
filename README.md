@@ -1,3 +1,4 @@
-# Open University Degree Calculator
+This project is intended for deployment on Github Pages.
 
-`npm run build`
+> `npm run dev`
+> `npm run build`

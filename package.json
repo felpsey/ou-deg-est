@@ -1,25 +1,23 @@
 {
-  "name": "ou-degree-calculator",
-  "version": "1.0.0",
-  "description": "Estimate the overall grade of an Open University degree",
+  "name": "vue-ts",
   "private": true,
+  "version": "0.0.0",
+  "homepage": "https://felpsey.github.io/ou-deg-est/",
+  "type": "module",
   "scripts": {
-    "build": "webpack"
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
-  "author": "Ethan Phelps",
-  "license": "ISC",
   "dependencies": {
-    "bootstrap": "^5.2.3"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/felpsey/ou-degree-calculator.git"
+    "gh-pages": "^6.1.0",
+    "vue": "^3.3.11"
   },
   "devDependencies": {
-    "css-loader": "^6.7.3",
-    "gh-pages": "^5.0.0",
-    "style-loader": "^3.3.1",
-    "webpack": "^5.75.0",
-    "webpack-cli": "^5.0.1"
+    "@vitejs/plugin-vue": "^4.5.2",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8",
+    "vue-tsc": "^1.8.25"
   }
 }

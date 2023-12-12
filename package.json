@@ -1,7 +1,7 @@
 {
   "name": "vue-ts",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "homepage": "https://felpsey.github.io/ou-deg-est/",
   "type": "module",
   "scripts": {
